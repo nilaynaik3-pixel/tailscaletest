@@ -1,0 +1,10 @@
+check:
+  name: Check a friend's Home Assistant
+  description: Tries to reach the address over the network and says what it found.
+  fields:
+    address:
+      name: Address
+      description: Your friend's Tailscale address, e.g. 100.101.102.103 (port 8123 is added). Leave empty to check your own.
+      example: 100.101.102.103
+      selector:
+        text: {}

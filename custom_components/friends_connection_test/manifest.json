@@ -1,0 +1,19 @@
+{
+  "domain": "friends_connection_test",
+  "name": "Friends Connection Test",
+  "codeowners": [
+    "@nilaynaik3-pixel"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "network"
+  ],
+  "documentation": "https://github.com/nilaynaik3-pixel/tailscaletest",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/nilaynaik3-pixel/tailscaletest/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

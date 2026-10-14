@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Friends Connection Test",
+        "description": "Tests whether this Home Assistant can reach a friend's Home Assistant over Tailscale. Submit, then look at your notifications."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Already set up."
+    }
+  }
+}
